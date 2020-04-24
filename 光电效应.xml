@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
 <ExamPaper>
   <Title>
     <Name>光电效应实验</Name>
@@ -12,7 +12,7 @@
       <Name>使用者姓名</Name>
       <Time>
         <MaxTime>7200</MaxTime>
-        <RealTime>107</RealTime>
+        <RealTime>19</RealTime>
       </Time>
     </User>
     <FinalResult>true</FinalResult>

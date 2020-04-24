@@ -8,7 +8,7 @@
       <Name>使用者姓名</Name>
       <Time>
         <MaxTime>考试时间限制</MaxTime>
-        <RealTime>923</RealTime>
+        <RealTime>20</RealTime>
       </Time>
     </User>
     <FinalResult>true</FinalResult>
@@ -21,7 +21,7 @@
       <Type>实验内容</Type>
       <Score>
         <Total>60</Total>
-        <RealScore>60</RealScore>
+        <RealScore>0</RealScore>
       </Score>
       <!--实验没有系统复位，操作步骤里还要加系统复位吗？-->
       <Script>
@@ -94,12 +94,12 @@
               <Name>BCJZ_Na</Name>
               <VarType>bool</VarType>
               <Script>将单色仪校准，保存校准状态</Script>
-              <RealResult>True</RealResult>
+              <RealResult>False</RealResult>
               <StdResult>true</StdResult>
               <StdResultShowInfo>单色仪已经校准</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>6</TotalScore>
-              <RealScore>6</RealScore>
+              <RealScore>0</RealScore>
               <JudgeRule>
                 <RightRule>
                   <Score>6</Score>
@@ -110,10 +110,10 @@
                   <RuleShowInfo>单色仪未校准</RuleShowInfo>
                 </WrongRule>
               </JudgeRule>
-              <StudentResultShowInfo>单色仪已经校准</StudentResultShowInfo>
+              <StudentResultShowInfo>单色仪未校准</StudentResultShowInfo>
             </Para>
           </Group>
-          <RealScore>6</RealScore>
+          <RealScore>0</RealScore>
         </TestTarget>
         <!--测量钠灯光谱表格-->
         <TestTarget>
@@ -125,12 +125,12 @@
               <Name>NDGP_List</Name>
               <VarType Count="8">TList</VarType>
               <Script> 将负高压设在300~500V范围，波长范围在490~620nm，利用采集程序获取高压钠灯的各个分立峰的光谱曲线，保存钠灯光谱曲线，将数据记录到表格中； </Script>
-              <RealResult>(序号,波长(nm),里德伯常数(E7/m));(漫线系(5短),497.78,1.127345);(漫线系(5长),498.20,1.126395);(漫线系(4短),568.30,1.131263);(漫线系(4长),568.60,1.130666);(主线系（短）,589.00,1.139843);(主线系(长）,589.60,1.138683);(锐线系（短）,615.40,1.133967);(锐线系(长）,616.00,1.132862)</RealResult>
+              <RealResult>(序号,波长(nm),里德伯常数(E7/m));(漫线系(5短),,);(漫线系(5长),,);(漫线系(4短),,);(漫线系(4长),,);(主线系（短）,,);(主线系(长）,,);(锐线系（短）,,);(锐线系(长）,,)</RealResult>
               <StdResult>(序号,波长(nm),里德伯常数(E7/m));(漫线系(5短),497.78,1.127345);(漫线系(5长),498.20,1.126395);(漫线系(4短),568.30,1.131263);(漫线系(4长),568.60,1.130666);(主线系（短）,589.00,1.139843);(主线系(长）,589.60,1.138683);(锐线系（短）,615.40,1.133967);(锐线系(长）,616.00,1.132862)</StdResult>
               <StdResultShowInfo>原值</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>24</TotalScore>
-              <RealScore>24</RealScore>
+              <RealScore>0</RealScore>
               <TeacherScore>0</TeacherScore>
               <Para>
                 <sn>0</sn>
@@ -194,12 +194,12 @@
               <Script>里德伯常数平均值R(E7/m)=</Script>
               <DataSource>NSXGP</DataSource>
               <AlgorithmID>LDB_Na</AlgorithmID>
-              <RealResult>1.133</RealResult>
+              <RealResult></RealResult>
               <StdResult>1.133</StdResult>
               <StdResultShowInfo>原值</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>12</TotalScore>
-              <RealScore>12</RealScore>
+              <RealScore>0</RealScore>
               <TeacherScore>0</TeacherScore>
               <JudgeRule>
                 <Rule>
@@ -216,7 +216,7 @@
               </JudgeRule>
             </Para>
           </Group>
-          <RealScore>36</RealScore>
+          <RealScore>0</RealScore>
         </TestTarget>
         <!--测量汞光灯光谱-->
         <TestTarget>
@@ -228,12 +228,12 @@
               <Name>GDGP_List</Name>
               <VarType Count="9">TList</VarType>
               <Script>将汞灯替换钠灯，将负高压设在380~520V范围，扫描波长范围360~585nm，利用采集程序获取高压汞灯的各个分立峰的光谱曲线，保存光谱曲线,记录实验数值；</Script>
-              <RealResult>(序号,波长(nm),幅值);(1,365.00,1222.55);(2,365.50,869.05);(3,366.30,736.13);(4,404.70,1157.50);(5,407.80,721.06);(6,435.80,1115.72);(7,546.10,1216.15);(8,577.00,413.82);(9,579.10,420.31)</RealResult>
-              <StdResult>(序号,波长(nm),幅值);(1,365.02,1222.55);(2,365.48,869.05);(3,366.30,736.13);(4,404.66,1157.50);(5,407.78,721.06);(6,435.84,1115.72);(7,546.07,1216.15);(8,576.96,413.82);(9,579.07,420.31)</StdResult>
+              <RealResult>(序号,波长(nm),幅值);(1,,);(2,,);(3,,);(4,,);(5,,);(6,,);(7,,);(8,,);(9,,)</RealResult>
+              <StdResult>(序号,波长(nm),幅值);(1,,);(2,,);(3,,);(4,,);(5,,);(6,,);(7,,);(8,,);(9,,)</StdResult>
               <StdResultShowInfo>原值</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>18</TotalScore>
-              <RealScore>18</RealScore>
+              <RealScore>0</RealScore>
               <TeacherScore>0</TeacherScore>
               <Para>
                 <sn>0</sn>
@@ -290,7 +290,7 @@
               </Para>
             </Para>
           </Group>
-          <RealScore>18</RealScore>
+          <RealScore>0</RealScore>
         </TestTarget>
       </CheckPoint>
     </Question>
@@ -301,7 +301,7 @@
       <Type>实验内容</Type>
       <Score>
         <Total>40</Total>
-        <RealScore>40</RealScore>
+        <RealScore>0</RealScore>
       </Score>
       <Script>
         <DOC>
@@ -373,12 +373,12 @@
               <Name>BCJZ_Hg</Name>
               <VarType>bool</VarType>
               <Script>将单色仪校准，保存校准状态；</Script>
-              <RealResult>True</RealResult>
+              <RealResult>False</RealResult>
               <StdResult>true</StdResult>
               <StdResultShowInfo>单色仪已经校准</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>6</TotalScore>
-              <RealScore>6</RealScore>
+              <RealScore>0</RealScore>
               <JudgeRule>
                 <RightRule>
                   <Score>6</Score>
@@ -389,10 +389,10 @@
                   <RuleShowInfo>单色仪未校准</RuleShowInfo>
                 </WrongRule>
               </JudgeRule>
-              <StudentResultShowInfo>单色仪已经校准</StudentResultShowInfo>
+              <StudentResultShowInfo>单色仪未校准</StudentResultShowInfo>
             </Para>
           </Group>
-          <RealScore>6</RealScore>
+          <RealScore>0</RealScore>
         </TestTarget>
         <TestTarget>
           <Script>测量氢氘灯光谱</Script>
@@ -403,12 +403,12 @@
               <Name>QDDGP_List</Name>
               <VarType Count="8">TList</VarType>
               <Script>将氢氘灯替换汞灯，负高压设置在800V左右，扫描波长范围在400~660nm，利用采集程序获取氢氘灯的各个分立峰的光谱曲线，保存光谱曲线，记录实验数据；</Script>
-              <RealResult>(谱线类型（能级n）,波长(nm),R(E7/m));(氘（6）,409.55,1.098767);(氢（6）,410.20,1.097026);(氘（5）,433.45,1.098605);(氢（5）,434.05,1.097082);(氘（4）,485.50,1.098524);(氢（4）,486.15,1.097055);(氘（3）,655.40,1.098566);(氢（3）,656.30,1.097059)</RealResult>
+              <RealResult>(谱线类型（能级n）,波长(nm),R(E7/m));(氘（6）,,);(氢（6）,,);(氘（5）,,);(氢（5）,,);(氘（4）,,);(氢（4）,,);(氘（3）,,);(氢（3）,,)</RealResult>
               <StdResult>(谱线类型（能级n）,波长(nm),R(E7/m));(氘（6）,409.55,1.098767);(氢（6）,410.20,1.097026);(氘（5）,433.45,1.098605);(氢（5）,434.05,1.097082);(氘（4）,485.50,1.098524);(氢（4）,486.15,1.097055);(氘（3）,655.40,1.098566);(氢（3）,656.30,1.097059)</StdResult>
               <StdResultShowInfo>原值</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>24</TotalScore>
-              <RealScore>24</RealScore>
+              <RealScore>0</RealScore>
               <TeacherScore>0</TeacherScore>
               <Para>
                 <sn>0</sn>
@@ -472,12 +472,12 @@
               <Script> 里德伯常数平均值R(E7/m)=</Script>
               <DataSource>QDDGP_List</DataSource>
               <AlgorithmID>LDB_QD_Average</AlgorithmID>
-              <RealResult>1.097233</RealResult>
+              <RealResult></RealResult>
               <StdResult>1.097233</StdResult>
               <StdResultShowInfo>原值</StdResultShowInfo>
               <StdSource>Exp</StdSource>
               <TotalScore>10</TotalScore>
-              <RealScore>10</RealScore>
+              <RealScore>0</RealScore>
               <TeacherScore>0</TeacherScore>
               <JudgeRule>
                 <Rule>
@@ -494,7 +494,7 @@
               </JudgeRule>
             </Para>
           </Group>
-          <RealScore>34</RealScore>
+          <RealScore>0</RealScore>
         </TestTarget>
       </CheckPoint>
     </Question>
