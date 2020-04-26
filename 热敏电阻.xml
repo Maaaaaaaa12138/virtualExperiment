@@ -1,0 +1,1779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>热敏电阻温度特性研究</Name>
+    <Id>SIMEXP_RMDZTXYJ_ZGKXJSDX_V001</Id>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>20</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>用箱式电桥研究热敏电阻温度特性</Name>
+      <Id>SIMEXP_RMDZTXYJ_ZGKXJSDX_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>70</Total>
+        <RealScore>0</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究热敏电阻温度特性。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                       " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="280" ImageHeight="300" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量热敏电阻阻值与温度对应关系曲线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：电桥箱、待测电阻
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_RMDZTXYJ_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究热敏电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量热敏电阻阻值与温度对应关系曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究热敏电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量热敏电阻阻值与温度对应关系曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult>False</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接失败</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--2、检流计调零   10分-->
+        <TestTarget>
+          <Script>检流计指针调到零位</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ZeroStatus</Name>
+              <VarType>double</VarType>
+              <Script>检流计指针调到零位</Script>
+              <RealResult>2.0</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1</Min>
+                    <Max>1</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--3、B和G按钮按操作顺序判断   5分-->
+        <TestTarget>
+          <Script>B和G按钮按操作顺序判断</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BGTag</Name>
+              <VarType>bool</VarType>
+              <Script>B和G按钮按操作顺序判断</Script>
+              <RealResult>False</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>操作正确</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>操作不正确</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作不正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--5、测量电桥的灵敏度   10分-->
+        <TestTarget>
+          <Script>测量并计算出电桥的灵敏度。</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BLBStatus</Name>
+              <VarType>double</VarType>
+              <Script>根据待测电阻值，选择合适的比例臂，然后点击按钮保存选定的比例臂，在这个比例臂下测量电桥的灵敏度。</Script>
+              <RealResult>0.0</RealResult>
+              <StdResult>1</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+            </Para>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>R0AllList2</Name>
+              <VarType Count="3">TList</VarType>
+              <Script>选定一个合适的比例臂，调节电桥平衡，记下电桥平衡时电阻臂的电阻值R0，然后在小范围内改变电阻臂的电阻值，记下电阻臂相对平衡位置改变的值,即△R0，和指针相对平衡位置偏转的格数，即△n0，测量三次，记录实验数据：</Script>
+              <RealResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0,电桥灵敏度);(1,,,,);(2,,,,);(3,,,,)</RealResult>
+              <StdResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0,电桥灵敏度);(1,,,,0.00);(2,,,,0.00);(3,,,,0.00)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>内容</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>R0List2</Name>
+                <Script>电阻臂R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>PZR0List2</Name>
+                <Script>变化量△R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>PZN0List2</Name>
+                <Script>偏转格数△n0</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>4</sn>
+                <Name>SListVal</Name>
+                <Script>电桥灵敏度</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SVal</Name>
+              <VarType>double</VarType>
+              <Script>电桥灵敏度S=</Script>
+              <RealResult></RealResult>
+              <StdResult>0.00</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--5、测量电桥的灵敏度   10分-->
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>R0AllList2</Name>
+              <VarType Count="14">TList</VarType>
+              <Script>选取合适的比例臂，测量20℃~85℃（每隔5℃）不同温度点对应的热敏电阻值，升降温各测一次求取平均值，记录实验数据：</Script>
+              <RealResult>(温度值（单位℃）（Ω）,升温时热敏电阻值（Ω）,降温时热敏电阻值（Ω）,热敏电阻平均值（Ω));(20,,,);(25,,,);(30,,,);(35,,,);(40,,,);(45,,,);(50,,,);(55,,,);(60,,,);(65,,,);(70,,,);(75,,,);(80,,,);(85,,,)</RealResult>
+              <StdResult>(温度值（单位℃）（Ω）,升温时热敏电阻值（Ω）,降温时热敏电阻值（Ω）,热敏电阻平均值（Ω));(20,4753,4753,4753);(25,3832,3832,3832);(30,3111,3111,3111);(35,2543,2543,2543);(40,2092,2092,2092);(45,1732,1732,1732);(50,1442,1442,1442);(55,1207,1207,1207);(60,1016,1016,1016);(65,859,859,859);(70,731,731,731);(75,624,624,624);(80,535,535,535);(85,461,461,461)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度值（单位℃）（Ω）;20;25;30;35;40;45;50;55;60;65;70;75;80;85</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>AddRe</Name>
+                <Script>升温时热敏电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>DesRee</Name>
+                <Script>降温时热敏电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>AveRee</Name>
+                <Script>热敏电阻平均值（Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>RWuQong</Name>
+              <VarType>double</VarType>
+              <Script>根据ln{Rt}~(-1/T)曲线，确定T趋于无穷时热敏电阻的阻值R∞（单位：Ω）=</Script>
+              <RealResult></RealResult>
+              <StdResult>0.0123</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>RChangShu</Name>
+              <VarType>double</VarType>
+              <Script>热敏电阻的材料常数B（单位：K）=</Script>
+              <RealResult></RealResult>
+              <StdResult>3776</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>TXiShu</Name>
+              <VarType>double</VarType>
+              <Script>50℃时的电阻温度系数α（单位：1/K）=</Script>
+              <RealResult></RealResult>
+              <StdResult>-0.0361</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>题目编号2</Sn>
+      <Name>用自主式电桥研究热敏电阻温度特性</Name>
+      <Id>SIMEXP_RMDZTXYJ_ZGKXJSDX_V002</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>65</Total>
+        <RealScore>0</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究热敏电阻温度特性。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                        " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="284" ImageHeight="149" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将检流计调零。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）测量热敏电阻阻值与温度对应关系曲线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）记录数据。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：电桥箱、待测电阻
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_RMDZTXYJ_ZGKXJSDX_V002.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究热敏电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按直流电桥实验的实验电路图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）调节直流电桥平衡，测量并计算出待测电阻的电阻值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量并计算电桥的灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究热敏电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按直流电桥实验的实验电路图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）调节直流电桥平衡，测量并计算出待测电阻的电阻值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量并计算电桥的灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult></RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接失败</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--2、检流计调零   10分-->
+        <TestTarget>
+          <Script>检流计指针调到零位</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ZeroSanStatus</Name>
+              <VarType>double</VarType>
+              <Script>检流计指针调到零位</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1</Min>
+                    <Max>1</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--4、测量并计算出待测电阻的电阻值   10分-->
+        <TestTarget>
+          <Script>测量并计算出电桥的灵敏度。</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BLBStatus</Name>
+              <VarType>double</VarType>
+              <Script>选择合适的比例臂，调节并设定电阻箱R1、R2、电压源和滑动变阻器的阻值，调节电桥平衡，然后点击保存选定的比例臂，在这个环境下测量电桥的灵敏度。</Script>
+              <RealResult></RealResult>
+              <StdResult>未知</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+            </Para>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>RxAllList</Name>
+              <VarType Count="3">TList</VarType>
+              <Script>确定测量灵敏度的环境以后，调节电阻箱R3使电桥平衡，记下电桥平衡时电阻R3的电阻值（既下面列表中的R0），然后在小范围内改变电阻箱R3的电阻值，记下电阻箱相对平衡位置改变的值,即△R0，和检流计指针相对平衡位置偏转的格数，即△n0，测量三次，记录实验数据：</Script>
+              <RealResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0);(1,,,);(2,,,);(3,,,)</RealResult>
+              <StdResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0);(1,,,);(2,,,);(3,,,)</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>内容</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>SanR0List2</Name>
+                <Script>电阻臂R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>SanPZR0List2</Name>
+                <Script>变化量△R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>SanPZN0List2</Name>
+                <Script>偏转格数△n0</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>4</sn>
+                <Name>SanSListVal</Name>
+                <Script>电桥灵敏度</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanSVal</Name>
+              <VarType>double</VarType>
+              <Script>直流电桥的灵敏度S=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>SanR0AllList2</Name>
+              <VarType Count="14">TList</VarType>
+              <Script>选取合适的比例臂，测量20℃~85℃（每隔5℃）不同温度点对应的热敏电阻值，升降温各测一次求取平均值，记录实验数据：</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度值（单位℃）（Ω）;20;25;30;35;40;45;50;55;60;65;70;75;80;85</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>SanAddRe</Name>
+                <Script>升温时热敏电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>SanDesRee</Name>
+                <Script>降温时热敏电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>SanAveRee</Name>
+                <Script>热敏电阻平均值（Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanRWuQong</Name>
+              <VarType>double</VarType>
+              <Script>根据ln{Rt}~(-1/T)曲线，确定T趋于无穷时热敏电阻的阻值R∞（单位：Ω）=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanRChangShu</Name>
+              <VarType>double</VarType>
+              <Script>热敏电阻的材料常数B（单位：K）=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanTXiShu</Name>
+              <VarType>double</VarType>
+              <Script>50℃时的电阻温度系数α（单位：1/K）=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>题目编号3</Sn>
+      <Name>用箱式电桥研究铜电阻温度特性</Name>
+      <Id>SIMEXP_COPDZTXYJ_ZGKXJSDX_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>60</Total>
+        <RealScore>0</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究铜电阻温度特性。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                       " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="280" ImageHeight="300" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量铜电阻阻值与温度对应关系曲线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：电桥箱、待测电阻
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_COPDZTXYJ_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究铜电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量铜电阻阻值与温度对应关系曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用箱式电桥研究铜电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量铜电阻阻值与温度对应关系曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult></RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接失败</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--2、检流计调零   10分-->
+        <TestTarget>
+          <Script>检流计指针调到零位</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ZeroStatus</Name>
+              <VarType>double</VarType>
+              <Script>检流计指针调到零位</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1</Min>
+                    <Max>1</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--3、B和G按钮按操作顺序判断   5分-->
+        <TestTarget>
+          <Script>B和G按钮按操作顺序判断</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BGTag</Name>
+              <VarType>bool</VarType>
+              <Script>B和G按钮按操作顺序判断</Script>
+              <RealResult></RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>操作正确</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>操作不正确</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作不正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--5、测量电桥的灵敏度   10分-->
+        <TestTarget>
+          <Script>测量并计算出电桥的灵敏度。</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BLBStatus</Name>
+              <VarType>double</VarType>
+              <Script>根据待测电阻值，选择合适的比例臂，然后点击按钮保存选定的比例臂，在这个比例臂下测量电桥的灵敏度。</Script>
+              <RealResult></RealResult>
+              <StdResult>未知</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+            </Para>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>R0AllList2</Name>
+              <VarType Count="3">TList</VarType>
+              <Script>选定一个合适的比例臂，调节电桥平衡，记下电桥平衡时电阻臂的电阻值R0，然后在小范围内改变电阻臂的电阻值，记下电阻臂相对平衡位置改变的值,即△R0，和指针相对平衡位置偏转的格数，即△n0，测量三次，记录实验数据：</Script>
+              <RealResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0,电桥灵敏度);(1,,,,);(2,,,,);(3,,,,)</RealResult>
+              <StdResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0,电桥灵敏度);(1,,,,);(2,,,,);(3,,,,)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>内容</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>R0CopList2</Name>
+                <Script>电阻臂R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>PZR0CopList2</Name>
+                <Script>变化量△R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>PZN0CopList2</Name>
+                <Script>偏转格数△n0</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>4</sn>
+                <Name>SCopListVal</Name>
+                <Script>电桥灵敏度</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SCopVal</Name>
+              <VarType>double</VarType>
+              <Script>电桥灵敏度S=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--5、测量电桥的灵敏度   10分-->
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>R0AllList2</Name>
+              <VarType Count="14">TList</VarType>
+              <Script>选取合适的比例臂，测量20℃~85℃（每隔5℃）不同温度点对应的热敏电阻值，升降温各测一次求取平均值，记录实验数据：</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度值（单位℃）（Ω）;20;25;30;35;40;45;50;55;60;65;70;75;80;85</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>AddReCop</Name>
+                <Script>升温时铜电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>DesReeCop</Name>
+                <Script>降温时铜电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>AveReeCop</Name>
+                <Script>铜电阻平均值（Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>已知多数金属的电阻值随温度变化满足Rt=R0 (1+α*t)，式中Rt、R0分别是温度为0℃、t℃时金属的电阻值，α是电阻温度系数，单位是（℃）；根据测量数据，利用逐差法计算铜电阻温度特性参数:</Script>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>RWuQongCop</Name>
+              <VarType>double</VarType>
+              <Script>铜电阻的阻值R0（单位：Ω）= </Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>TXiShuCop</Name>
+              <VarType>double</VarType>
+              <Script>铜电阻温度系数α（单位：1/℃）=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>题目编号4</Sn>
+      <Name>用自主式电桥研究铜电阻温度特性</Name>
+      <Id>SIMEXP_COPDZTXYJ_ZGKXJSDX_V002</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>55</Total>
+        <RealScore>0</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究铜电阻温度特性。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                        " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="284" ImageHeight="149" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按惠斯通电桥电路原理图，正确连线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将检流计调零。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）根据电桥灵敏度公式S=△n/(△RX/RX)或S=△n/(△R0/R0)，测量并计算电桥的灵敏度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）测量铜电阻阻值与温度对应关系曲线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）记录数据。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：电桥箱、待测电阻
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_COPDZTXYJ_ZGKXJSDX_V002.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究铜电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按直流电桥实验的实验电路图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）调节直流电桥平衡，测量并计算出待测电阻的电阻值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量并计算电桥的灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="用自主式电桥研究铜电阻温度特性。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）按直流电桥实验的实验电路图，正确连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）线路连接好以后，将电桥箱上的检流计调零。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）B和G按钮按操作顺序判断。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）调节直流电桥平衡，测量并计算出待测电阻的电阻值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）测量并计算电桥的灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult></RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接失败</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--2、检流计调零   10分-->
+        <TestTarget>
+          <Script>检流计指针调到零位</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ZeroSanStatus</Name>
+              <VarType>double</VarType>
+              <Script>检流计指针调到零位</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1</Min>
+                    <Max>1</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--4、测量并计算出待测电阻的电阻值   10分-->
+        <TestTarget>
+          <Script>测量并计算出电桥的灵敏度。</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>BLBStatus</Name>
+              <VarType>double</VarType>
+              <Script>选择合适的比例臂，调节并设定电阻箱R1、R2、电压源和滑动变阻器的阻值，调节电桥平衡，然后点击保存选定的比例臂，在这个环境下测量电桥的灵敏度。</Script>
+              <RealResult></RealResult>
+              <StdResult>未知</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+            </Para>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>RxAllList</Name>
+              <VarType Count="3">TList</VarType>
+              <Script>确定测量灵敏度的环境以后，调节电阻箱R3使电桥平衡，记下电桥平衡时电阻R3的电阻值（既下面列表中的R0），然后在小范围内改变电阻箱R3的电阻值，记下电阻箱相对平衡位置改变的值,即△R0，和检流计指针相对平衡位置偏转的格数，即△n0，测量三次，记录实验数据：</Script>
+              <RealResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0);(1,,,);(2,,,);(3,,,)</RealResult>
+              <StdResult>(内容,电阻臂R0(Ω),变化量△R0(Ω),偏转格数△n0);(1,,,);(2,,,);(3,,,)</StdResult>
+              <StdResultShowInfo>选定比例臂</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>内容</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>SanCopR0List2</Name>
+                <Script>电阻臂R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>SanCopPZR0List2</Name>
+                <Script>变化量△R0(Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>SanCopPZN0List2</Name>
+                <Script>偏转格数△n0</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>4</sn>
+                <Name>SanCopSListVal</Name>
+                <Script>电桥灵敏度</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanCopSVal</Name>
+              <VarType>double</VarType>
+              <Script>直流电桥的灵敏度S=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>SanR0AllList2</Name>
+              <VarType Count="14">TList</VarType>
+              <Script>选取合适的比例臂，测量20℃~85℃（每隔5℃）不同温度点对应的热敏电阻值，升降温各测一次求取平均值，记录实验数据：</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度值（单位℃）（Ω）;20;25;30;35;40;45;50;55;60;65;70;75;80;85</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>SanAddReCop</Name>
+                <Script>升温时铜电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>SanDesReeCop</Name>
+                <Script>降温时铜电阻值（Ω）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>SanAveReeCop</Name>
+                <Script>铜电阻平均值（Ω)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>已知多数金属的电阻值随温度变化满足Rt=R0 (1+α*t)，式中Rt、R0分别是温度为0℃、t℃时金属的电阻值，α是电阻温度系数，单位是（℃）；根据测量数据，利用逐差法计算铜电阻温度特性参数:
+          </Script>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanRWuQongCop</Name>
+              <VarType>double</VarType>
+              <Script>铜电阻的阻值R0（单位：Ω）= </Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>SanTXiShuCop</Name>
+              <VarType>double</VarType>
+              <Script>铜电阻温度系数α（单位：1/℃）=</Script>
+              <RealResult></RealResult>
+              <StdResult></StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.30</Min>
+                    <Max>0.30</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

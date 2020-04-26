@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>PN结温度特性与伏安特性的研究</Name>
+    <Id>SIMEXP_PNJWDTXYFATXYJ_ZGKXJSDX_V001</Id>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>57</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>PN结温度特性与伏安特性的研究</Name>
+      <Id>SIMEXP_COPDZTXYJ_PNTEMPTURE_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>100</Total>
+        <RealScore>0</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="PN结物理特性测试。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）根据实验原理，连接实验线路并保存实验连线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）在恒定温度条件下，测量正向电压随正向电流的变化关系，绘制伏安特性曲线。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）在恒定电流IF=50μA条件下，测绘PN结正向压降VF随温度的变化曲线，并计算灵敏度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）计算玻尔兹曼常数k。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）求被测PN结正向压降随温度变化的灵敏度S(mV/℃)。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）估算被测PN结的禁带宽度Eg(0)。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）根据测量结果，完成实验表格。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：PN结正向特性综合实验仪、温度传感实验装置、样品室、Pt100温度传感器、PN结集成温度传感器
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_COPDZTXYJ_PNTEMPTURE_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="PN结物理特性测试。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）根据实验原理，连接实验线路并保存实验连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）在恒定温度条件下，测量正向电压随正向电流的变化关系，绘制伏安特性曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）在恒定电流IF=50μA条件下，测绘PN结正向压降VF随温度的变化曲线，并计算灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）计算玻尔兹曼常数k。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）求被测PN结正向压降随温度变化的灵敏度S(mV/℃)。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）估算被测PN结的禁带宽度Eg(0)。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）根据测量结果，完成实验表格。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="PN结物理特性测试。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）根据实验原理，连接实验线路并保存实验连线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）在恒定温度条件下，测量正向电压随正向电流的变化关系，绘制伏安特性曲线。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）在恒定电流IF=50μA条件下，测绘PN结正向压降VF随温度的变化曲线，并计算灵敏度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）计算玻尔兹曼常数k。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）求被测PN结正向压降随温度变化的灵敏度S(mV/℃)。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）估算被测PN结的禁带宽度Eg(0)。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）根据测量结果，完成实验表格。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult>False</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接失败</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--2、测量正向电压随正向电流的变化关系   10分-->
+        <TestTarget>
+          <Script>测量正向电压随正向电流的变化关系</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>AVList</Name>
+              <VarType Count="19">TList</VarType>
+              <Script>选取温度值为30℃，待温度恒定后开始实验。调节电流旋钮，使IF逐渐增大，正向压降VF将随之增大。要求VF在0.450V-0.540V范围内每变化0.005V记录对应的IF，绘制IF-VF曲线。</Script>
+              <RealResult>(VF(V),IF(μA));(0.450,);(0.455,);(0.460,);(0.465,);(0.470,);(0.475,);(0.480,);(0.485,);(0.490,);(0.495,);(0.500,);(0.505,);(0.510,);(0.515,);(0.520,);(0.525,);(0.530,);(0.535,);(0.540,)</RealResult>
+              <StdResult>(VF(V),IF(μA));(0.450,1.974);(0.455,2.391);(0.460,2.895);(0.465,3.506);(0.470,4.246);(0.475,5.141);(0.480,6.226);(0.485,7.539);(0.490,9.130);(0.495,11.056);(0.500,13.388);(0.505,16.213);(0.510,19.633);(0.515,23.774);(0.520,28.790);(0.525,34.863);(0.530,42.217);(0.535,51.123);(0.540,61.908)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>19</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>VF(V);0.450;0.455;0.460;0.465;0.470;0.475;0.480;0.485;0.490;0.495;0.500;0.505;0.510;0.515;0.520;0.525;0.530;0.535;0.540</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>Ameter</Name>
+                <Script>IF(μA)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>19</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.10</Min>
+                      <Max>0.10</Max>
+                    </Range>
+                    <Score>1.0</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>BEZCSK</Name>
+              <VarType>double</VarType>
+              <Script>计算得到的波尔兹曼常数K(单位：10-23J/K)=</Script>
+              <RealResult></RealResult>
+              <StdResult>1.381</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>9</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.10</Min>
+                    <Max>0.10</Max>
+                  </Range>
+                  <Score>9</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.20</Min>
+                    <Max>0.20</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--3、测绘PN结正向压降VF随温度的变化曲线   10分-->
+        <TestTarget>
+          <Script>测量正向电压随温度的变化关系</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>PTList</Name>
+              <VarType Count="11">TList</VarType>
+              <Script>在恒定电流IF=50μA条件下，测绘PN结正向压降VF随温度的变化曲线，要求在30℃~80℃左右温度范围（温度不宜太高）内每隔5℃测量一个点，升温过程和降温过程各测一遍，记录对应的VF，确定其灵敏度。</Script>
+              <RealResult>(温度值（℃）,升温VF(V),降温VF(V),VF平均值(V));(30,,,);(35,,,);(40,,,);(45,,,);(50,,,);(55,,,);(60,,,);(65,,,);(70,,,);(75,,,);(80,,,)</RealResult>
+              <StdResult>(温度值（℃）,升温VF(V),降温VF(V),VF平均值(V));(30,0.534,0.534,0.534);(35,0.523,0.523,0.523);(40,0.511,0.511,0.511);(45,0.500,0.500,0.500);(50,0.489,0.489,0.489);(55,0.477,0.477,0.477);(60,0.466,0.466,0.466);(65,0.454,0.454,0.454);(70,0.443,0.443,0.443);(75,0.431,0.431,0.431);(80,0.420,0.420,0.420)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>33</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度值（℃）;30;35;40;45;50;55;60;65;70;75;80</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>ShenWen</Name>
+                <Script>升温VF(V)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>11</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.005</Min>
+                      <Max>0.005</Max>
+                    </Range>
+                    <Score>1</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>JiangWen</Name>
+                <Script>降温VF(V)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>11</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.005</Min>
+                      <Max>0.0005</Max>
+                    </Range>
+                    <Score>1</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>VFAVER</Name>
+                <Script>VF平均值(V)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>11</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.005</Min>
+                      <Max>0.005</Max>
+                    </Range>
+                    <Score>1</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>LingMinDu</Name>
+              <VarType>double</VarType>
+              <Script>PN结正向压降随温度变化的灵敏度S(单位：mV/℃)=</Script>
+              <RealResult></RealResult>
+              <StdResult>-2.29</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>12</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.10</Min>
+                    <Max>0.10</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>EgZhi</Name>
+              <VarType>double</VarType>
+              <Script>估算被测PN结的禁带宽度Eg(0)(单位：eV)=</Script>
+              <RealResult></RealResult>
+              <StdResult>1.23</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>12</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.10</Min>
+                    <Max>0.10</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>
